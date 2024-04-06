@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var inputText = ""
+    
     var body: some View {
         VStack {
             Button("計算") {

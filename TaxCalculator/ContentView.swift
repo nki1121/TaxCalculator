@@ -16,7 +16,7 @@ struct ContentView: View {
             Button("計算") {
                 
             }
-            Text("価格：")
+            Text("価格：\(inputText)")
             Text("消費税8%：")
             Text("消費税10%：")
         }

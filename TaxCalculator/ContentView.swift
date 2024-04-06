@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State var inputText = ""
+    @State var tax8 = 0.0
+    @State var tax10 = 0.0
     
     var body: some View {
         VStack(spacing: 20) {
